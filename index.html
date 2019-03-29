@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ru">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Маршрут Карта</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>               
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+              <h1>Маршрут ПУ-10</h1>
+            </div>
+        </div>
+      <div class="head">Карта маршрутов ТТП (ПУ-10)</div>
+      <div class="subtitle">Данная карта дает приблизительные данные, нахождения и действия знаков 3.24 (только 20км) и 3.27</div>
+      <div class="main-map" id="map"></div>
+      <div class="button">
+          <div class="button__item">
+              <div class="button__desc"><img width="15px" src="icon/no-stopping.svg" alt="остановка запрещена"> 3.27 Остановка запрещена</div>
+              <button class="btn" id="button-on" type="button">Показать</button>
+          </div>
+          <div class="button__item">
+                <div class="button__desc"><img width="15px" src="icon/limit.svg" alt="ограничение скорости"> 3.24 Ограничание скорости 20км</div>
+                <button class="btn" id="button-limit" type="button">Показать</button>
+            </div>        
+      </div>      
+		  <script src="index.js"></script>
+    </body>
+</html>

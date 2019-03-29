@@ -1,0 +1,60 @@
+body {
+    overflow: scroll;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.jumbotron { 
+  padding: 30px; /* fills out the jumbotron */
+  background-color: #007ACC;
+}
+
+.container {
+  max-width: 1170px; /* specify a width */
+  margin: 0 auto;  /* centers the container */
+  padding: 0 15px; /* adds some padding to the left and right*/
+}
+
+.jumbotron .container { 
+  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+  background-color: #0F0F0D;
+}
+
+.jumbotron h1 { 
+  text-align: center; /* centers the heading */
+  color: #DDD;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main-map {
+    margin: 0 auto;
+    max-width:500px;
+    height:400px
+}
+
+.head {
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.subtitle {
+    padding: 0 40px 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button {
+    margin: 20px;
+}
+
+.button__item {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.btn {
+    margin-left: 10px;
+}
